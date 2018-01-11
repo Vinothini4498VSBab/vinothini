@@ -5,10 +5,10 @@ char c;
 scanf("%s",&c)
 if(c==a||c==e||c==i||c==o||c==u)
 {
-printf("vowel");
+printf("given is vowel");
 }
-else
-{
-printf("consonant");
-}
+  else
+  {
+    printf("given is consonant");
+  }
 }
