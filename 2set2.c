@@ -11,6 +11,6 @@ sum=sum*10+r;
 }
 if(n==sum)
 {
-printf("palindrom");
+printf("yes");
 }
 }
