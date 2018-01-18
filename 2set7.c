@@ -1,5 +1,5 @@
 #include<stdio.h>
-int checkprime(int n)
+int checkprime(int x)
 void main()
 {
 int n1,n2,i,flag;
@@ -11,12 +11,12 @@ if(flag==1)
 {
 printf("%d",&i);
 }
-int checkprime(int n)
+int checkprime(int x)
 {
 int j,flag=1;
 for(j=2;j<=n/2;++j)
 {
-if(n%j==0)
+if(x%j==0)
 {
 flag=0;
 break;
