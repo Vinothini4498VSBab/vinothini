@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main(0
+void main()
 {
 int x,min,max;
 scanf("%d %d",&min,&max);
