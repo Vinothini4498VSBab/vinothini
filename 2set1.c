@@ -9,5 +9,5 @@ while(exponent!=0)
 result *=base
 --exponent;
 }
-scanf("%d",&result);
+printf("%d",&result);
 }
