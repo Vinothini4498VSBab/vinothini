@@ -15,7 +15,7 @@ temp=temp/10;
 }
 if(i==num)
 {
-printf9"%d",i);
+printf("%d",i);
 }
-]
+}
 }
