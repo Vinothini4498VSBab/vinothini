@@ -2,22 +2,22 @@
 #include<string.h>
 int main()
 {
-	char a[100],e[100],o[100];
+	char a1[50],e1[50],o1[50];
 	int i=0,j=0,k=0,m;
 	printf("\nEnter the string : ");
-	scanf("%s",&a[i]);
-while(a[i]!='\0')
+	scanf("%s",&a1[i]);
+while(a1[i]!='\0')
 {
     if(i%2==0)
     {
-        e[j++]=a[i];
+        e1[j++]=a11[i];
     }
     else
     {
-        o[k++]=a[i];
+        o1[k++]=a1[i];
     }
     i++;
 }
-printf("\nThe seperated string is %s %s.",e,o);
+printf("\nThe seperated string is %s %s.",e1,o1);
 	return 0;
 }
